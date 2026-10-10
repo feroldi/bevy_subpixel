@@ -12,6 +12,8 @@ This crate replaces Bevy's sprite shader with one that smooths pixels,
 keeping their exact size, and camera movement becomes smooth at subpixel
 precision.
 
+The technique used in the shader is explained in this video: [Crafting a Better Shader for Pixel Art Upscaling](https://www.youtube.com/watch?v=d6tp43wZqps).
+
 ## Usage
 
 Add the dependency to `Cargo.toml`:
