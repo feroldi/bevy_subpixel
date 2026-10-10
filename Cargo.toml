@@ -1,0 +1,17 @@
+[package]
+name = "bevy_subpixel"
+version = "0.1.0"
+edition = "2024"
+description = "A Bevy subpixel smoothing shader for pixel art."
+license = "MIT OR Apache-2.0"
+authors = ["Mário Feroldi <mferoldif@gmail.com>"]
+documentation = "https://docs.rs/bevy_subpixel"
+repository = "https://github.com/feroldi/bevy_subpixel"
+keywords = ["gamedev", "bevy", "subpixel", "shader"]
+categories = ["game-development"]
+
+[dependencies]
+bevy = { version = "0.19.1", default-features = false, features = ["bevy_asset"] }
+
+[dev-dependencies]
+bevy = "0.19.1"
